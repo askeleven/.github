@@ -12,6 +12,9 @@ Running agents on real customers teaches you things a demo never will. What we l
 | **[agent-autonomy-levels](https://github.com/askeleven/agent-autonomy-levels)** | A shared vocabulary for how much an AI agent may do without a human. Six levels, L0 to L5, and the design errors that make "autonomous" meaningless. |
 | **[deliverability-check](https://github.com/askeleven/deliverability-check)** | Find out why your email goes to spam, and what specifically to change. SPF, DKIM, DMARC, MX, BIMI, blocklists. `npx @askeleven/deliverability-check yourdomain.com` |
 | **[send-guard](https://github.com/askeleven/send-guard)** | Check an email list before your agent sends to it: what will bounce, what is a trap, and why. CLI and MCP server; free local checks, mailbox checks via [Analyzemail](https://analyzemail.com). `npx @askeleven/send-guard leads.csv` |
+| **[agent-pulse](https://github.com/askeleven/agent-pulse)** | Know your agent stopped working before your customer does. Alerts on missing activity, failure streaks and accepted-but-undelivered messages, not just errors. `npx @askeleven/agent-pulse check` |
+| **[sms-guard](https://github.com/askeleven/sms-guard)** | Check a text before your agent sends it: encoding, segment count, the recipient's quiet hours, shorteners, opt-out wording. Splits long texts into parts carriers will deliver. `npx @askeleven/sms-guard msg.txt` |
+| **[send-once](https://github.com/askeleven/send-once)** | A send happens once, and only while the approval behind it is still true. Idempotency ledger plus approval expiry and fact re-checks at dispatch. `npm i @askeleven/send-once` |
 
 ### What we hold ourselves to
 
