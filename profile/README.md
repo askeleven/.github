@@ -11,6 +11,7 @@ Running agents on real customers teaches you things a demo never will. What we l
 | **[agent-proof](https://github.com/askeleven/agent-proof)** | Record your agent doing a real task as one uncut vertical video. Every caption comes from the agent's own step events, not an editor. `npx @askeleven/agent-proof run` |
 | **[agent-autonomy-levels](https://github.com/askeleven/agent-autonomy-levels)** | A shared vocabulary for how much an AI agent may do without a human. Six levels, L0 to L5, and the design errors that make "autonomous" meaningless. |
 | **[deliverability-check](https://github.com/askeleven/deliverability-check)** | Find out why your email goes to spam, and what specifically to change. SPF, DKIM, DMARC, MX, BIMI, blocklists. `npx @askeleven/deliverability-check yourdomain.com` |
+| **[send-guard](https://github.com/askeleven/send-guard)** | Check an email list before your agent sends to it: what will bounce, what is a trap, and why. CLI and MCP server; free local checks, mailbox checks via [Analyzemail](https://analyzemail.com). `npx @askeleven/send-guard leads.csv` |
 
 ### What we hold ourselves to
 
