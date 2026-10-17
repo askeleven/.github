@@ -19,6 +19,7 @@ Running agents on real customers teaches you things a demo never will. What we l
 | **[loop-breaker](https://github.com/askeleven/loop-breaker)** | Stop your agent replying to an autoresponder, a bounce, or another bot. Checks a thread before every reply for the signs of a loop, on any channel, with an optional ledger across threads that never stores message text. `npx @askeleven/loop-breaker thread.json` |
 | **[undo-send](https://github.com/askeleven/undo-send)** | Give your agent an undo button. Each email, text or other action waits a moment before it runs, with an undo link a person can press, and an action that was undone never runs. `npm i @askeleven/undo-send` |
 | **[inbox-canary](https://github.com/askeleven/inbox-canary)** | A fire drill for prompt injection. Decoy emails and documents with hidden instructions, the way real attacks hide them, then a check of what your agent did with them, and a badge for your README. `npx @askeleven/inbox-canary make drill` |
+| **[do-not-contact](https://github.com/askeleven/do-not-contact)** | One do-not-contact list for every channel. A STOP by text, an unsubscribe or "please remove me" in a reply blocks that person on email, SMS and everything else. Stores keyed hashes, never addresses. CLI, library and MCP server. `npx @askeleven/do-not-contact check dana@acme.com` |
 
 ### What we hold ourselves to
 
