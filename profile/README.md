@@ -20,6 +20,7 @@ Running agents on real customers teaches you things a demo never will. What we l
 | **[undo-send](https://github.com/askeleven/undo-send)** | Give your agent an undo button. Each email, text or other action waits a moment before it runs, with an undo link a person can press, and an action that was undone never runs. `npm i @askeleven/undo-send` |
 | **[inbox-canary](https://github.com/askeleven/inbox-canary)** | A fire drill for prompt injection. Decoy emails and documents with hidden instructions, the way real attacks hide them, then a check of what your agent did with them, and a badge for your README. `npx @askeleven/inbox-canary make drill` |
 | **[do-not-contact](https://github.com/askeleven/do-not-contact)** | One do-not-contact list for every channel. A STOP by text, an unsubscribe or "please remove me" in a reply blocks that person on email, SMS and everything else. Stores keyed hashes, never addresses. CLI, library and MCP server. `npx @askeleven/do-not-contact check dana@acme.com` |
+| **[reply-clock](https://github.com/askeleven/reply-clock)** | How long do people wait for your reply? Grades your email first-reply times, A to F, from a mail export or IMAP: median, share answered, after hours, new contacts. Headers only. Shareable report card, and [a web page](https://askeleven.github.io/reply-clock/) that reads your export in the browser. `npx @askeleven/reply-clock mail.mbox` |
 
 ### What we hold ourselves to
 
