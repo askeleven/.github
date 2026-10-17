@@ -16,6 +16,7 @@ Running agents on real customers teaches you things a demo never will. What we l
 | **[sms-guard](https://github.com/askeleven/sms-guard)** | Check a text before your agent sends it: encoding, segment count, the recipient's quiet hours, shorteners, opt-out wording. Splits long texts into parts carriers will deliver. `npx @askeleven/sms-guard msg.txt` |
 | **[send-once](https://github.com/askeleven/send-once)** | A send happens once, and only while the approval behind it is still true. Idempotency ledger plus approval expiry and fact re-checks at dispatch. `npm i @askeleven/send-once` |
 | **[bot-tells](https://github.com/askeleven/bot-tells)** | Check a message before your agent sends it for what makes readers think a bot wrote it: leaked placeholders and chat wrappers, stock openers, words people now read as AI. A 0-100 bot score and the fixes that are safe to make. [Try it in your browser](https://askeleven.github.io/bot-tells). `npx @askeleven/bot-tells draft.txt` |
+| **[loop-breaker](https://github.com/askeleven/loop-breaker)** | Stop your agent replying to an autoresponder, a bounce, or another bot. Checks a thread before every reply for the signs of a loop, on any channel, with an optional ledger across threads that never stores message text. `npx @askeleven/loop-breaker thread.json` |
 
 ### What we hold ourselves to
 
