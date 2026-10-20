@@ -26,7 +26,7 @@ Running agents on real customers teaches you things a demo never will. What we l
 
 ### What we hold ourselves to
 
-- **Show the work.** An agent's claim is worth what you can verify. Everything here makes an agent's behaviour inspectable, not more impressive.
+- **Show the work.** An agent's claim is worth what you can verify. Everything here makes an agent's behavior inspectable, not more impressive.
 - **Name the failure.** Each tool exists because something went wrong on a real account first. The READMEs say what it does not do.
 - **No lock-in.** Nothing here needs an AskEleven account, and none of it phones home.
 
